@@ -175,7 +175,7 @@ background: rgba(255, 255, 255, 0.1);
   filter: drop-shadow(0 0 8px rgba(255,255,255,0.2));
 }
 .error{
-  background: linear-gradient(135deg, #ff4350,#f9d433);
+  background: linear-gradient(180deg,rgba(255, 255, 255, 0.2),rgba(0, 0, 0, 0.7));
   padding: 1.2rem;
   border-radius: 15px;
   margin-bottom: 1rem;

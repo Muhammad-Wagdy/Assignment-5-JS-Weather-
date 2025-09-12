@@ -16,7 +16,7 @@ async function getWeatherByCity(cityName) {
     }
     displayWeather(data);
   } catch (err) {
-    showError(err.message);
+    showError(err);
   }
 }
 
@@ -78,9 +78,9 @@ function displayWeather(data) {
   });
 }
 
-function showError(message) {
+function showError() {
   error.classList.remove("d-none");
-  error.textContent = message;
+  error.textContent = 'City is not found';
   error.style.animation = "none";
   error.offsetHeight;
   error.style.animation = null;
