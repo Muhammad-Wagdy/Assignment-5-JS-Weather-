@@ -8,12 +8,24 @@ main{
   background: url(../images/black-clouds-field.jpg);
   color: white;
   min-height: 100vh;
-  padding: 2rem;
+  padding-bottom: 2rem;
 }
-main nav img{
-  width: 200px;
-  height: 200px;
-  
+.navbar{
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 12px 40px rgba(0,0,0);
+  backdrop-filter: blur(10px);
+}
+.navbar a i{
+  color: white;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+}
+.navbar .navbar-nav a{
+  color: white;
+  transition: 0.4s;
+}
+.navbar .navbar-nav a:hover{
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+
 }
 .search-box{
   display: flex;
@@ -24,7 +36,6 @@ main nav img{
   background: rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   backdrop-filter: blur(10px);
-
 }
 input{
   flex: 1;
@@ -39,7 +50,7 @@ input{
 input:focus{
   outline: none;
   border-color: rgba(255, 255, 255, 0.3);
-  background: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255,0.7);
 }
 input::placeholder{
   color:  rgba(0, 0, 0, 0.7);
