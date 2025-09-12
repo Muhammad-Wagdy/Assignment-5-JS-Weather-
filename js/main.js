@@ -99,8 +99,10 @@ document.getElementById("city-input").addEventListener("keydown", (e) => {
   }
 });
 cityInput.addEventListener("input", () => {
-  getWeatherByCity(cityInput.value);
+  const defaultCity = "Cairo";
+  getWeatherByCity(cityInput.value || defaultCity);
 });
+
 window.addEventListener("load", () => {
   const defaultCity = "Cairo";
   getWeatherByCity(cityInput.value || defaultCity);
