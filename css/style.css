@@ -19,7 +19,7 @@ main{
   color: white;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
 }
-.navbar a span{
+.navbar .logo span{
   color: white;
   vertical-align: text-bottom;
   text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
